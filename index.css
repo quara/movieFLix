@@ -1,0 +1,59 @@
+
+body{
+    background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/black-curtain.jpg");
+}
+
+.bodyText{
+    color: white;
+}
+
+.homeTab{
+    background-image: url("https://wallpaperscraft.com/image/dark_circle_gray_black_9834_1920x1080.jpg");
+    opacity: 0.5 ;
+    height: 30px;
+    position: relative;
+    z-index:10;
+}
+
+.homeTab:hover {
+    opacity: 1.0 ;
+    height: 300px;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    z-index:10;
+
+}
+.homeTab:hover > .userRegistration{
+    visibility:visible;
+    width:50%;
+    position: absolute;
+    top:80px;
+
+
+}
+
+.myslider{
+    position:absolute;
+    top:50px;
+    width:100%;
+    background-color: rgba(0,0,0,0.5) ;
+}
+
+.item{
+    max-width: 100%;
+}
+
+.dropdown-menu{
+    background-color: lightblue;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.userregistration{
+    visibility:hidden;
+}
