@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="signUp.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
+
+<div class="signUpBox">
+    <form role="form">
+
+        <div class="form-group">
+            <label for="fname">First Name:</label>
+            <input type="text" class="form-control" id="fname" autofocus="autofocus">
+        </div>
+
+        <div class="form-group">
+            <label for="lname">Last Name:</label>
+            <input type="text" class="form-control" id="lname">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email">
+        </div>
+
+        <label class="radio-inline"><input type="radio" name="optradio" id="genderMale">Male</label>
+        <label class="radio-inline"><input type="radio" name="optradio" id="genderFemale">Female</label>
+
+        <div class="form-group">
+            <label for="phone">Contact Number:</label>
+            <input type="tel" class="form-control" id="phone">
+        </div>
+
+            <div class="form-group">
+                <label for="lname">PassWord:</label>
+                <input type="text" class="form-control" id="password">
+            </div>
+
+            <div class="form-group">
+                <label for="lname">Confirm PassWord:</label>
+                <input type="text" class="form-control" id="passwordConfirm">
+            </div>
+
+        <label for="birthdaySignUp">Birthday:  </label><input id="birthdaySignUp" type="date"/>
+
+        <button class="btn btn-primary" type="submit" id="signupButton">Register</button>
+        <a class="btn btn-default" href="index.html" id="gobacktohome"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <div class="alert alert-info" role="alert" id="homepageAlert">
+            <strong>Heads up! This will take you back to the Home Page.</strong>
+        </div>
+
+    </form>
+
+</div>
+
 
 </body>
 </html>

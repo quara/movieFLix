@@ -1,0 +1,32 @@
+body{
+    background-image: url("http://wallpaper.pickywallpapers.com/1920x1080/black-curtain.jpg");
+    color:snow;
+}
+
+.signUpBox{
+
+    width:50%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.3);
+    position:absolute;
+    top:30px;
+    left:300px;
+
+}
+
+#birthdaySignUp{
+    color: royalblue;
+}
+#signupButton{
+    position: relative;
+
+}
+
+#homepageAlert{
+    visibility:hidden;
+}
+
+#gobacktohome:hover #homepageAlert{
+    visibility:visible;
+}
+
